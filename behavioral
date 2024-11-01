@@ -1,0 +1,9 @@
+module adder_behavioral(
+  input wire [3:0] a,
+  input wire [3:0] b,
+  output reg [4:0] sum
+);
+  always @(*) begin
+    sum = a + b ;
+  end
+endmodule
